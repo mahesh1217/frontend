@@ -18,14 +18,14 @@ How to Use the Application
 
  Booking Flow:
 =============
-User selects seats.
-Frontend sends POST request:
-POST /api/seats/book
+1.User selects seats.
+2.Frontend sends POST request:
+3.POST /api/seats/book
 
 Backend:
 ========
-Checks if seats are already booked
-Calculates total price
-Saves booking
-Returns booking confirmation.
-Frontend updates UI.
+1.Checks if seats are already booked
+2.Calculates total price
+3.Saves booking
+4.Returns booking confirmation.
+5.Frontend updates UI.
